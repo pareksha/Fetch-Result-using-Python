@@ -1,0 +1,166 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="ctl00_Head1"><title>
+	UIET Information System - View Marks
+</title><link rel="stylesheet" type="text/css" href="cssusr3.css" /></head>
+<body style="margin-left : 0; margin-top : 0;">
+    <form name="aspnetForm" method="post" action="viewmarks.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTMzMTUyNjUzMA9kFgJmD2QWAgIDD2QWBAIBDw8WAh4EVGV4dAUKVmlldyBNYXJrc2RkAgMPZBYCAgEPZBYEAhMPDxYCHwAFREVpdGhlciBSb2xsIE5vLiBkb2VzIG5vdCBleGlzdCBvciBSZXN1bHQgaGFzIG5vdCBiZWVuIHByb2Nlc3NlZCB5ZXQuZGQCFQ9kFgQCDw88KwANAGQCEQ88KwANAGQYAwUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgYFIGN0bDAwJG1pZGRsZUNvbnRlbnQkUmFkaW9CdXR0b25HBSFjdGwwMCRtaWRkbGVDb250ZW50JFJhZGlvQnV0dG9uTkcFIWN0bDAwJG1pZGRsZUNvbnRlbnQkUmFkaW9CdXR0b25ORwUgY3RsMDAkbWlkZGxlQ29udGVudCRSYWRpb0J1dHRvbjEFIGN0bDAwJG1pZGRsZUNvbnRlbnQkUmFkaW9CdXR0b24yBSBjdGwwMCRtaWRkbGVDb250ZW50JFJhZGlvQnV0dG9uMgUdY3RsMDAkbWlkZGxlQ29udGVudCRHcmlkVmlldzIPZ2QFHWN0bDAwJG1pZGRsZUNvbnRlbnQkR3JpZFZpZXcxD2dkUpAX1CQnCRFbDPKx9/2RXmigq1k=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F368589A" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFQLeu7GFBwLKm//KDwKwzYbXDQKxzYbXDQKyzYbXDQKzzYbXDQK0zYbXDQK1zYbXDQK2zYbXDQKnzYbXDQKozYbXDQKwzcbUDQLgzbrJDQKyqe3pBgLdzbrJDQKs9fOJAQKJ27+qBwLtmLvJDAL2wcuTDwL2wb+3BgKSyNCHBrTJqKWfumsZc8LYjZSx/7kYuC9N" />
+    <div>
+    <br/>
+    <center>
+        <table border='0' cellspacing='0' cellpadding='0' width='780' style="text-align: left">
+            <tr>
+                <td colspan="3" class="header">
+                    <h2>
+                    UIET Information System</h2>
+                </td>
+            </tr>
+            <tr>
+                <td class="leftbar" style="width : 0%;" valign="top">
+                    <!--Workaround to get away from problem of incorrect menu show in IE6-->
+                    &nbsp;</td>
+                <td class="middlebar" style="width : 100%;" valign="top">
+                <br />         
+                    <span id="ctl00_lblheader" class="labelatlevel1">View Marks</span>
+                    
+    <table border="0" cellpadding="0" cellspacing="5" width="100%">
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+            <div id="content">
+                <b>Disclaimer:</b>
+                <br />
+                <div class="msg">
+                    Information displayed below is being provided before final scrutiny and declaration
+                    by COE office, PU, to facilitate
+                    students of UIET to be informed about their result.
+                    <!--In case of descrepancy, student must inform the concerned faculty member about the
+                    same on or before 8th February, 2008. After final date, no request to modify marks will be entertained. -->
+			        The result is informative in nature and should not be construed as final. Final result will be declared by COE office, PU.
+			    </div>
+                <!--
+                <div class="msg">
+                    Information displayed below is being provided before final scrutiny and declaration
+                    by COE office, PU, to facilitate
+                    students of UIET to be informed about their result.
+                    In case of descrepancy, student must inform the concerned faculty member about the
+                    same on or before 8th February, 2008. After final date, no request to modify marks will be entertained. 
+			        The result is informative in nature and should not be construed as final. Final result will be declared by COE office, PU.
+			    </div>
+			    -->
+			    <!--
+                <div class="msg">
+                    Result of examinations held in Apr/May 2008 is yet to be processed. Please visit after some time.</div>
+                </div>
+                -->
+            </td>
+        </tr>
+    </table>
+    <div id="ctl00_middleContent_Panel2">
+	
+    <table border="0" cellpadding="0" cellspacing="5" width="100%">
+        <tr>
+            <td style="width: 15%; text-align: right" valign="top">
+            </td>
+            <td style="width: 45%; text-align: left" valign="top">
+            </td>
+        </tr>
+		<!--
+        <tr>
+            <td colspan="2">
+		<a href="20121/CSE-8.pdf">CSE 8th Semester Industrial Training Result</a><br />
+		<a href="20121/ECE-8.pdf">ECE 8th Semester Industrial Training Result</a><br />
+		<a href="20121/EEE-8.pdf">EEE 8th Semester Industrial Training Result</a><br />
+		<a href="20121/MEC-8.pdf">MEC 8th Semester Industrial Training Result</a><br />
+		<a href="20121/BIO-8.pdf">BIO 8th Semester Industrial Training Result</a><br />
+		<a href="20121/ITE-8.pdf">IT 8th Semester Industrial Training Result</a><br />
+            </td>
+        </tr>
+		-->
+        <tr>
+            <td colspan="2" style="text-align: left; height: 24px;" valign="top">
+                <strong>Roll No.:</strong>
+                <input name="ctl00$middleContent$TextBox1" type="text" value="ue149120" id="ctl00_middleContent_TextBox1" />
+                &nbsp;
+                <strong>Semester:</strong>
+                <select name="ctl00$middleContent$DropDownList1" id="ctl00_middleContent_DropDownList1">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option selected="selected" value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+
+	</select>
+                <strong>Course:</strong>
+                <select name="ctl00$middleContent$DropDownList2" id="ctl00_middleContent_DropDownList2">
+		<option selected="selected" value="BE">BE</option>
+		<option value="BEMBA">BEMBA</option>
+		<option value="ME">ME</option>
+		<option value="MTECH">MTECH</option>
+
+	</select>
+            </td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;">
+                <input id="ctl00_middleContent_RadioButtonG" type="radio" name="ctl00$middleContent$type" value="RadioButtonG" checked="checked" /><label for="ctl00_middleContent_RadioButtonG">Grading</label><br />
+                <input id="ctl00_middleContent_RadioButtonNG" type="radio" name="ctl00$middleContent$type" value="RadioButtonNG" /><label for="ctl00_middleContent_RadioButtonNG">Non-Grading</label></td>
+            <td style="border: 1px solid black;">
+                <input id="ctl00_middleContent_RadioButton1" type="radio" name="ctl00$middleContent$resulttype" value="RadioButton1" checked="checked" /><label for="ctl00_middleContent_RadioButton1">Regular Candidate</label><br />
+                <input id="ctl00_middleContent_RadioButton2" type="radio" name="ctl00$middleContent$resulttype" value="RadioButton2" /><label for="ctl00_middleContent_RadioButton2">Reappear Candidate</label></td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <input type="submit" name="ctl00$middleContent$cmdsubmit" value="Show Marks" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$middleContent$cmdsubmit&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ctl00_middleContent_cmdsubmit" class="button" /></td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+                <span id="ctl00_middleContent_Label8" style="display:inline-block;">Either Roll No. does not exist or Result has not been processed yet.</span></td>
+        </tr>
+    </table>
+    
+    
+</div>    
+
+                </td>
+                <td class="rightbar" style="width : 0%;" valign="top">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="footer">
+                Web application developed and maintained by IT Cell, University Institute of Engg. & Tech.
+                </td>
+            </tr>
+        </table>
+    </center>    
+    </div>
+    </form>
+</body>
+</html>
