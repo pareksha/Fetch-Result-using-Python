@@ -5,6 +5,8 @@ from tkinter import *
 
 root = Tk()
 
+root.geometry("1000x600+400+100")
+
 frame1 = Frame(root)
 frame1.pack()
 
@@ -23,33 +25,24 @@ entry2.grid(row = 1,column = 1)
 frame2 = Frame(root)
 frame2.pack()
 
+flag = False
+
+
 
 
 def values():
-    i = 1
-    starting_roll = int(entry1.get())
-    ending_roll = int(entry2.get())
-    number_of_values = ending_roll - starting_roll
+    starting_roll = int(entry1.get()[2:])
+    ending_roll = int(entry2.get()[2:])
 
-    label_roll = Label(frame2,text = "Roll Number\t")
-    label_roll.grid(row = 0, column = 0)
+    new_window = Toplevel(root)
+    new_window.geometry("1000x600+400+0")
 
-    label_roll = Label(frame2,text = "Name\t")
-    label_roll.grid(row = 0, column = 1)
+    t = Text(new_window,height = 100,width = 150,padx = 40, pady = 10)
+    t.pack()
+    t.insert(END,"Roll Number\t\tName\t\t\t\tBranch\t\tSGPA\t\tCumulative Grade Points\t\t\t\tCGPA\n\n")
 
-    label_roll = Label(frame2,text = "Branch\t")
-    label_roll.grid(row = 0, column = 2)
 
-    label_roll = Label(frame2,text = "SGPA\t")
-    label_roll.grid(row = 0, column = 3)
-
-    label_roll = Label(frame2,text = "Cumulative Grade Points\t")
-    label_roll.grid(row = 0, column = 4)
-
-    label_roll = Label(frame2,text = "CGPA\t")
-    label_roll.grid(row = 0, column = 5)
-
-    for x in range(starting_roll,ending_roll):
+    for x in range(starting_roll,ending_roll+1):
         roll = "ue" + str(x)
         sem = '6'
 
@@ -69,27 +62,7 @@ def values():
             cgpa = result[2][8:]
 
 
-
-            label_roll = Label(frame2,text = roll + '\t')
-            label_roll.grid(row = i, column = 0,sticky = W)
-
-            label_name = Label(frame2,text = name + '\t')
-            label_name.grid(row = i,column = 1,sticky = W)
-
-            label_branch = Label(frame2,text = branch + '\t')
-            label_branch.grid(row = i ,column = 2,sticky = W)
-
-            label_sgpa = Label(frame2,text = sgpa + '\t')
-            label_sgpa.grid(row = i ,column = 3,sticky = W)
-
-            label_credits = Label(frame2,text = credits + '\t')
-            label_credits.grid(row = i ,column = 4,sticky = W)
-
-            label_cgpa = Label(frame2,text = cgpa + '\t')
-            label_cgpa.grid(row = i ,column = 5,sticky = W)
-
-            i+=1
-
+            t.insert(END,roll + "\t\t" + name + "\t\t\t\t" + branch + "\t\t" + sgpa + "\t\t" + credits + "\t\t\t\t" + cgpa + "\n")
 
         except Exception as e:
             print(str(e))
@@ -98,6 +71,7 @@ def values():
 
         print('printing',roll)
 
+    t.config(state = DISABLED)
 
 
 
@@ -105,6 +79,7 @@ def values():
 
 search_btn = Button(frame1, text = "Search",command = values)
 search_btn.grid(columnspan = 2)
+
 
 
 
