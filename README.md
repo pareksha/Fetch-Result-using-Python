@@ -12,7 +12,7 @@ Run https://github.com/pareksha/Fetch-Result-using-Python/blob/master/tkinter_re
 
 # Initial rough code
 https://github.com/pareksha/Fetch-Result-using-Python/blob/master/result_using_python.py represents my initial base code which 
-stores the 6th semester results of all the students of UIET into csv format of 
+stores the 6th semester results of all the students of UIET into csv format of  
 https://github.com/pareksha/Fetch-Result-using-Python/blob/master/result.csv
 
 # Check working
